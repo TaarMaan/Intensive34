@@ -1,14 +1,27 @@
 package ru.aston.artamonov_va.task1;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import ru.aston.artamonov_va.task1.dto.User;
+import ru.aston.artamonov_va.task1.exceptions.TicketException;
 
 import java.math.BigDecimal;
 
 @Data
-@AllArgsConstructor
 public abstract class RailWayTicket implements Discount {
+    public RailWayTicket(BigDecimal sumTransportation, User user, int id) {
+        BigDecimal ticketNegativeException = new BigDecimal("0");
+        if (sumTransportation.compareTo(ticketNegativeException) <= 0){
+            throw new TicketException("Стоимость билета не должна быть < 0", 1);
+        }
+        BigDecimal ticketZeroException = new BigDecimal("0");
+        if (sumTransportation.compareTo(ticketZeroException) <= 0){
+            throw new TicketException("Стоимость билета не должна быть = 0", 0);
+        }
+        this.sumTransportation = sumTransportation;
+        this.user = user;
+        this.id = id;
+    }
+
     protected BigDecimal sumTransportation;
     private User user;
     private int id;
