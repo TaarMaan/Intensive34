@@ -1,13 +1,10 @@
 package ru.aston.artamonov_va.task1.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-import lombok.*;
-
+@Data
 @AllArgsConstructor
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
 public class User {
     private int age;
     private String sourName;

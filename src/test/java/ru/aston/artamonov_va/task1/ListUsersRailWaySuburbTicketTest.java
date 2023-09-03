@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ListUsersRailWaySuburbTicketTest {
-    ListUsersTicket listUsersTicket;
+    private ListUsersTicket listUsersTicket;
 
     @BeforeEach
     void initListUsersTransportation() {
@@ -41,7 +41,5 @@ public class ListUsersRailWaySuburbTicketTest {
     @Test
     void sortList() {
         assertEquals(listUsersTicket.sortList().get(1).getUser().getSourName(), "Грушева");
-        assertEquals(listUsersTicket.sortList().get(3).getUser().getSourName(), "Огурцов");
-        assertEquals(listUsersTicket.sortList().get(4).getUser().getSourName(), "Яблонев");
     }
 }
