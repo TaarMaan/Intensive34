@@ -1,10 +1,10 @@
-package ru.aston.artamonov_va.task1.list;
+package ru.aston.artamonov_va.task1.task12.list;
 
 import lombok.AllArgsConstructor;
 import lombok.ToString;
-import ru.aston.artamonov_va.task1.RailWayTicket;
-import ru.aston.artamonov_va.task1.TicketCalculation;
-import ru.aston.artamonov_va.task1.list.comparator.TicketComparator;
+import ru.aston.artamonov_va.task1.task12.RailWayTicket;
+import ru.aston.artamonov_va.task1.task12.TicketCalculation;
+import ru.aston.artamonov_va.task1.task12.list.comparator.TicketComparator;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ru.aston.artamonov_va.task1;
+package ru.aston.artamonov_va.task1.task12;
 
 import java.math.BigDecimal;
 

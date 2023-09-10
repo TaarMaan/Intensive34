@@ -1,8 +1,8 @@
-package ru.aston.artamonov_va.task1.tickets;
+package ru.aston.artamonov_va.task1.task12.tickets;
 
 
-import ru.aston.artamonov_va.task1.RailWayTicket;
-import ru.aston.artamonov_va.task1.dto.User;
+import ru.aston.artamonov_va.task1.task12.RailWayTicket;
+import ru.aston.artamonov_va.task1.task12.dto.User;
 
 import java.math.BigDecimal;
 
