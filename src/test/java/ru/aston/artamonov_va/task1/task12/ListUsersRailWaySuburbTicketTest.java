@@ -1,12 +1,12 @@
-package ru.aston.artamonov_va.task1;
+package ru.aston.artamonov_va.task1.task12;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.aston.artamonov_va.task1.dto.User;
-import ru.aston.artamonov_va.task1.exceptions.TicketException;
-import ru.aston.artamonov_va.task1.list.ListUsersTicket;
-import ru.aston.artamonov_va.task1.tickets.InternationalTicket;
-import ru.aston.artamonov_va.task1.tickets.SuburbTicket;
+import ru.aston.artamonov_va.task1.task12.dto.User;
+import ru.aston.artamonov_va.task1.task12.exceptions.TicketException;
+import ru.aston.artamonov_va.task1.task12.list.ListUsersTicket;
+import ru.aston.artamonov_va.task1.task12.tickets.InternationalTicket;
+import ru.aston.artamonov_va.task1.task12.tickets.SuburbTicket;
 
 import java.math.BigDecimal;
 import java.util.*;
@@ -72,7 +72,7 @@ class ListUsersRailWaySuburbTicketTest {
     void testTicketException() {
         assertThrows(TicketException.class, () -> {
             User user = new User(40, "Малина", "Мария");
-            RailWayTicket rwt = new InternationalTicket(BigDecimal.valueOf(0), user, 5);
+            RailWayTicket rwt = new InternationalTicket(BigDecimal.ZERO, user, 5);
         });
     }
 
