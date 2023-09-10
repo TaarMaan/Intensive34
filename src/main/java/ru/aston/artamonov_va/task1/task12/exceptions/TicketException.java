@@ -1,4 +1,4 @@
-package ru.aston.artamonov_va.task1.exceptions;
+package ru.aston.artamonov_va.task1.task12.exceptions;
 
 public class TicketException extends RuntimeException {
     private final int exceptionCode;
