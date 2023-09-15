@@ -1,8 +1,8 @@
-package ru.aston.artamonov_va.task12;
+package ru.aston.task1.task12;
 
 import lombok.Data;
-import ru.aston.artamonov_va.task12.dto.User;
-import ru.aston.artamonov_va.task12.exceptions.TicketException;
+import ru.aston.task1.task12.dto.User;
+import ru.aston.task1.task12.exceptions.TicketException;
 
 import java.math.BigDecimal;
 

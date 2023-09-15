@@ -2,11 +2,12 @@ package ru.aston.artamonov_va.task12;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.aston.artamonov_va.task12.dto.User;
-import ru.aston.artamonov_va.task12.exceptions.TicketException;
-import ru.aston.artamonov_va.task12.list.ListUsersTicket;
-import ru.aston.artamonov_va.task12.tickets.InternationalTicket;
-import ru.aston.artamonov_va.task12.tickets.SuburbTicket;
+import ru.aston.task1.task12.RailWayTicket;
+import ru.aston.task1.task12.dto.User;
+import ru.aston.task1.task12.exceptions.TicketException;
+import ru.aston.task1.task12.list.ListUsersTicket;
+import ru.aston.task1.task12.tickets.InternationalTicket;
+import ru.aston.task1.task12.tickets.SuburbTicket;
 
 import java.math.BigDecimal;
 import java.util.*;

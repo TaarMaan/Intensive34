@@ -1,6 +1,6 @@
-package ru.aston.artamonov_va.task12.list.comparator;
+package ru.aston.task1.task12.list.comparator;
 
-import ru.aston.artamonov_va.task12.RailWayTicket;
+import ru.aston.task1.task12.RailWayTicket;
 
 import java.util.Comparator;
 

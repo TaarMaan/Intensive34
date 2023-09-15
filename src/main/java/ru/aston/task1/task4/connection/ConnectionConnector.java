@@ -1,4 +1,4 @@
-package ru.aston.artamonov_va.task1.task4.connection;
+package ru.aston.task1.task4.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
