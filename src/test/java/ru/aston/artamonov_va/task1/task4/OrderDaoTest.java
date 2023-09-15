@@ -1,10 +1,10 @@
-package ru.aston.artamonov_va.task4;
+package ru.aston.artamonov_va.task1.task4;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ru.aston.artamonov_va.task4.dao.OrderDao;
-import ru.aston.artamonov_va.task4.domain.Order;
+import ru.aston.artamonov_va.task1.task4.dao.OrderDao;
+import ru.aston.artamonov_va.task1.task4.domain.Order;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package ru.aston.artamonov_va.task4;
+package ru.aston.artamonov_va.task1.task4;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ru.aston.artamonov_va.task4.dao.UserDao;
-import ru.aston.artamonov_va.task4.domain.User;
+import ru.aston.artamonov_va.task1.task4.dao.UserDao;
+import ru.aston.artamonov_va.task1.task4.domain.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ru.aston.artamonov_va.task4.dao;
+package ru.aston.artamonov_va.task1.task4.dao;
 
 import java.util.List;
 
