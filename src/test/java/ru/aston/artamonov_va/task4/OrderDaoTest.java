@@ -1,4 +1,4 @@
-package ru.aston.artamonov_va.task1.task4;
+package ru.aston.artamonov_va.task4;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

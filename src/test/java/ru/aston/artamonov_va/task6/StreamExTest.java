@@ -337,7 +337,7 @@ class StreamExTest {
     @Test
     void Ex25() {
         System.out.println("---Ex25---");
-        File[] files = new File("src/test/java/ru/aston/artamonov_va/task6/ExtensionList").listFiles();
+        File[] files = new File("src/test/java/ru/aston/artamonov_va/task1/task6/ExtensionList").listFiles();
 
         if (files != null) {
             List<String> fileExtensions = Arrays.stream(files)
