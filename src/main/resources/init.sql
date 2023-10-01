@@ -1,16 +1,22 @@
-CREATE TABLE if not exists orders (
-        id BIGSERIAL PRIMARY KEY,
-        name VARCHAR(64) NOT NULL
+CREATE TABLE if not exists orders
+(
+    id         int primary key,
+    user_id    int,
+    order_name varchar(55) NOT NULL,
+    order_text varchar(1000),
+    order_type varchar(55),
+    foreign key (user_id) references users (id)
 );
 
-CREATE TABLE if not exists users (
-        id BIGSERIAL PRIMARY KEY,
-        name VARCHAR(64) NOT NULL,
-        surname VARCHAR(64) NOT NULL,
-        phoneNumber VARCHAR(64) NOT NULL,
-        email VARCHAR(64) NOT NULL,
-        id_order BIGINT,
-        FOREIGN KEY (id_order) REFERENCES orders (id)
+CREATE TABLE if not exists users
+(
+    id           int primary key,
+    name         varchar(55),
+    second_name  varchar(55),
+    age          int,
+    birthday     date,
+    phone_number varchar(55),
+    email        varchar(255),
+    order_type   varchar(55),
+    meta jsonb
 );
-
-SELECT * FROM users u JOIN orders o on o.id = u.id_order;
