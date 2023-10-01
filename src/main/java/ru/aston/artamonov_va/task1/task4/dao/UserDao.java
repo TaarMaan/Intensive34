@@ -1,8 +1,8 @@
-package ru.aston.task1.task4.dao;
+package ru.aston.artamonov_va.task1.task4.dao;
 
 
-import ru.aston.task1.task4.connection.ConnectionConnector;
-import ru.aston.task1.task4.domain.User;
+import ru.aston.artamonov_va.task1.task4.connection.ConnectionConnector;
+import ru.aston.artamonov_va.task1.task4.domain.User;
 
 import java.sql.*;
 import java.util.ArrayList;

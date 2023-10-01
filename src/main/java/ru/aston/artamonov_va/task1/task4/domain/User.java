@@ -1,4 +1,4 @@
-package ru.aston.task1.task4.domain;
+package ru.aston.artamonov_va.task1.task4.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

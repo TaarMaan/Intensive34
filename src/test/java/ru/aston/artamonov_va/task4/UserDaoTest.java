@@ -6,9 +6,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ru.aston.task1.task4.dao.UserDao;
-import ru.aston.task1.task4.domain.User;
-import ru.aston.task1.task4.repository.UserRepository;
+import ru.aston.artamonov_va.task1.task4.dao.UserDao;
+import ru.aston.artamonov_va.task1.task4.domain.User;
+import ru.aston.artamonov_va.task1.task4.repository.UserRepository;
 
 import java.util.ArrayList;
 import java.util.List;

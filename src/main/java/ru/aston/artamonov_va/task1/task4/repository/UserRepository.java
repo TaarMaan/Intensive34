@@ -1,7 +1,7 @@
-package ru.aston.task1.task4.repository;
+package ru.aston.artamonov_va.task1.task4.repository;
 
-import ru.aston.task1.task4.dao.UserDao;
-import ru.aston.task1.task4.domain.User;
+import ru.aston.artamonov_va.task1.task4.dao.UserDao;
+import ru.aston.artamonov_va.task1.task4.domain.User;
 
 import java.util.List;
 
